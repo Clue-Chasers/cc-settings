@@ -6,7 +6,10 @@ on:
       - main
   schedule:
     - cron: '0 1 * * *' # once per day
-
+    
+permissions:
+  contents: write
+  
 jobs:
   deploy:
     runs-on: windows-latest
