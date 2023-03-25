@@ -1,0 +1,21 @@
+# PyCharm
+.idea
+
+# VS code
+.vscode
+
+# Python
+*.pyc
+__pycache__
+
+# google docs api
+credentials.json
+
+# env file
+.env
+
+# pipenv
+# Pipfile.lock
+
+# build files
+build
